@@ -1,0 +1,29 @@
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  
+  .testimonial-card {
+    margin-bottom: 30px;
+  }
+  
+  .testimonial-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #fff;
+  }
+  
+  .cta-button {
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    background-color: #ff6600;
+    color: white;
+  }
+  
+  .cta-button:hover {
+    background-color: #ff3d00;
+  }
+  

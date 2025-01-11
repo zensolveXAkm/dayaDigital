@@ -1,0 +1,107 @@
+/* Hero Background with Text */
+.hero-background {
+    position: relative;
+    background: url('LandingPage.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    color: white;
+    text-align: center;
+    z-index: -1;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    color: #00c6ff;
+  }
+  
+  /* Text Neon Effect */
+  .neon-text {
+    font-size: 2rem;
+    color: #00c6ff;
+    text-shadow: 0 0 10px #00c6ff, 0 0 20px #00c6ff, 0 0 30px #00c6ff;
+    animation: neonText 2s ease-in-out infinite alternate;
+  }
+  
+  /* Social Media Icons */
+  .social-icon {
+    margin-right: 15px;
+    color: #3498db;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #ff00ff;
+  }
+  
+  /* Card Shadows */
+  .card-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .card-shadow:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Futuristic Card */
+  .futuristic-card {
+    border: 2px solid #00c6ff;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .futuristic-card img {
+    border-radius: 10px;
+    border: 2px solid #00c6ff;
+  }
+  
+  .futuristic-list {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 1.1rem;
+    color: #00c6ff;
+  }
+  
+  .futuristic-list li {
+    margin: 10px 0;
+    position: relative;
+  }
+  
+  .futuristic-list li::before {
+    content: '→';
+    position: absolute;
+    left: -20px;
+    top: 0;
+    color: #00c6ff;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  /* List Group */
+  .list-group-item {
+    background-color: transparent;
+    border: none;
+  }
+  
+  /* Image Styling */
+  .tech-image {
+    border-radius: 10px;
+    border: 3px solid #00c6ff;
+    transition: transform 0.3s ease;
+  }
+  
+  .tech-image:hover {
+    transform: scale(1.05);
+  }
+  

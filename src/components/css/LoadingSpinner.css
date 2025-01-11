@@ -1,0 +1,30 @@
+.spinner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgba(255, 255, 255, 0.8);
+  }
+  
+  .spinner-icon {
+    font-size: 3rem;
+    color: #f97316; /* Orange color gradient effect */
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .spinner-container p {
+    font-size: 1.2rem;
+    color: #374151; /* Grayish color for text */
+    margin-top: 1rem;
+  }
+  
